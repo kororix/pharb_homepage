@@ -1,21 +1,21 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="/top_pages">Internal Homepage</a>
+    <a class="navbar-brand js-scroll-trigger" href="/top_pages">社内ホームページ</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu
       <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav text-uppercase ml-auto">
+      <ul class="navbar-nav ml-auto">
         <!-- <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#services">Services</a>
         </li> -->
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#pharmacy">Pharmacy Unit</a>
+          <a class="nav-link js-scroll-trigger" href="#pharmacy">株式会社pharb</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#it">IT Unit</a>
+          <a class="nav-link js-scroll-trigger" href="#it">株式会社ChatBot</a>
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#it">IT部門</a>
@@ -89,13 +89,13 @@
   </div>
 </section> -->
 
-<!-- 薬局部門 -->
+<!-- pharb -->
 <section class="bg-light page-section" id="pharmacy">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">Pharmacy Unit</h2>
-        <h3 class="section-subheading text-muted">薬局内業務</h3>
+        <h2 class="section-heading">株式会社pharb</h2>
+        <h3 class="section-subheading text-muted">Pharmacy Unit</h3>
       </div>
     </div>
     <div class="row">
@@ -106,7 +106,9 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid"><%=  image_tag("pharmacy-01-thumbnail.png") %></img>
+          <img class="img-fluid">
+            <%= link_to image_tag('pharmacy-01-thumbnail.png'), '/' %>
+          </img>
         </a>
         <div class="pharmacy-caption">
           <h4>勤怠管理</h4>
@@ -120,7 +122,9 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid"><%=  image_tag("no-image-thumbnail.png") %></img>
+          <img class="img-fluid">
+            <%= link_to image_tag('no-image-thumbnail.png'), '/' %>
+          </img>
         </a>
         <div class="pharmacy-caption">
           <h4>施設管理</h4>
@@ -134,7 +138,9 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid"><%=  image_tag("no-image-thumbnail.png") %></img>
+          <img class="img-fluid">
+            <%= link_to image_tag('no-image-thumbnail.png'), '/' %>
+          </img>
         </a>
         <div class="pharmacy-caption">
           <h4>###</h4>
@@ -148,7 +154,9 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid"><%=  image_tag("no-image-thumbnail.png") %></img>
+          <img class="img-fluid">
+            <%= link_to image_tag('no-image-thumbnail.png'), '/' %>
+          </img>
         </a>
         <div class="pharmacy-caption">
           <h4>Lines</h4>
@@ -162,7 +170,9 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid"><%=  image_tag("no-image-thumbnail.png") %></img>
+          <img class="img-fluid">
+            <%= link_to image_tag('no-image-thumbnail.png'), '/' %>
+          </img>
         </a>
         <div class="pharmacy-caption">
           <h4>Southwest</h4>
@@ -176,7 +186,9 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid"><%=  image_tag("no-image-thumbnail.png") %></img>
+          <img class="img-fluid">
+            <%= link_to image_tag('no-image-thumbnail.png'), '/' %>
+          </img>
         </a>
         <div class="pharmacy-caption">
           <h4>Window</h4>
@@ -187,13 +199,13 @@
   </div>
 </section>
 
-<!-- IT部門 -->
+<!-- ChatBot -->
 <section class="bg-light page-section" id="it">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">IT Unit</h2>
-        <h3 class="section-subheading text-muted">IT開発業務</h3>
+        <h2 class="section-heading">株式会社ChatBot</h2>
+        <h3 class="section-subheading text-muted">IT Unit</h3>
       </div>
     </div>
     <div class="row">
@@ -204,11 +216,13 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" href="https://gslab0707.bob-pop.com/precal/"><%=  image_tag("precal-thumbnail.png") %></img>
+          <img class="img-fluid">
+            <%= link_to image_tag('precal-thumbnail.png'), 'https://gslab0707.bob-pop.com/precal/' %>
+          </img>
         </a>
         <div class="it-caption">
           <h4>precal</h4>
-          <p class="text-muted">処方せん値段計算アプリ</p>
+          <p class="text-muted">処方せん値段計算</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 it-item">
@@ -218,7 +232,9 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid"><%=  image_tag("no-image-thumbnail.png") %></img>
+          <img class="img-fluid">
+            <%= link_to image_tag('no-image-thumbnail.png'), '/' %>
+          </img>
         </a>
         <div class="it-caption">
           <h4>###</h4>
@@ -232,7 +248,9 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid"><%=  image_tag("no-image-thumbnail.png") %></img>
+          <img class="img-fluid">
+            <%= link_to image_tag('no-image-thumbnail.png'), '/' %>
+          </img>
         </a>
         <div class="it-caption">
           <h4>###</h4>
@@ -246,7 +264,9 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid"><%=  image_tag("no-image-thumbnail.png") %></img>
+          <img class="img-fluid">
+            <%= link_to image_tag('no-image-thumbnail.png'), '/' %>
+          </img>
         </a>
         <div class="it-caption">
           <h4>Lines</h4>
@@ -260,7 +280,9 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid"><%=  image_tag("no-image-thumbnail.png") %></img>
+          <img class="img-fluid">
+            <%= link_to image_tag('no-image-thumbnail.png'), '/' %>
+          </img>
         </a>
         <div class="it-caption">
           <h4>Southwest</h4>
@@ -274,7 +296,9 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid"><%=  image_tag("no-image-thumbnail.png") %></img>
+          <img class="img-fluid">
+            <%= link_to image_tag('no-image-thumbnail.png'), '/' %>
+          </img>
         </a>
         <div class="it-caption">
           <h4>Window</h4>
@@ -290,7 +314,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">About Us</h2>
+        <h2 class="section-heading">About Us</h2>
         <h3 class="section-subheading text-muted">株式会社pharbの歴史</h3>
       </div>
     </div>
@@ -313,7 +337,7 @@
           </li>
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+              <img class="rounded-circle img-fluid" src="app/assets/images/timeline-02.png" alt="">
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
