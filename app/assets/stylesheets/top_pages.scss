@@ -108,7 +108,8 @@ img::-moz-selection {
 
 
 #mainNav {
-  background-color: #212529;
+  background-color: #000000;
+  opacity: 0.95;
 }
 
 #mainNav .navbar-toggler {
@@ -566,7 +567,7 @@ img::-moz-selection {
 //   background-color: #212529;
 // }
 #about_us {
-  background-color: #778899;
+  background: linear-gradient(90deg, #f5f5f5, #c0c0c0);
 }
 
 .timeline {

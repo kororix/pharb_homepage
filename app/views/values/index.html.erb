@@ -1,2 +1,115 @@
-<h1>Values#index</h1>
-<p>Find me in app/views/values/index.html.erb</p>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="/top_pages">社内ホームページ</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link " href='/top_pages'>TOPページ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#mission">企業理念</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#values">行動指針</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="value-page">
+<!-- 企業ロゴ -->
+<section class="bg-light page-section" id="logo">
+  <div class="row">
+    <div class="col-sm-6 logo-item">
+      <a class="logo-link" data-toggle="modal" href="#logoModal1">
+        <div class="logo-hover">
+          <div class="logo-hover-content">
+            <i class="fas fa-plus fa-3x"></i>
+          </div>
+        </div>
+        <img class="img-fluid">
+          <%= link_to image_tag('homepage_logo_chatbot.png'), '/' %>
+        </img>
+      </a>
+      <div class="logo-caption">
+        <h4>株式会社ChatBot</h4>
+        <p class="text-muted">IT部門</p>
+      </div>
+    </div>
+    <div class="col-sm-6 logo-item">
+      <a class="logo-link" data-toggle="modal" href="#logoModal2">
+        <div class="logo-hover">
+          <div class="logo-hover-content">
+            <i class="fas fa-plus fa-3x"></i>
+          </div>
+        </div>
+        <img class="img-fluid">
+          <%= link_to image_tag('homepage_pharb_logo.png'), 'https://pharbcare.com/' %>
+        </img>
+      </a>
+      <div class="logo-caption">
+        <h4>株式会社pharb</h4>
+        <p class="text-muted">薬局部門</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Mission -->
+<section class="bg-light page-section" id="mission">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">企業理念</h2>
+        <h3 class="section-subheading text-muted">mission</h3>
+      </div>
+    </div>
+    <a class="mission-text">チャットボットで<br>人々の人生を変える</br></a>
+  </div>
+</section>
+
+<!-- Values -->
+<section class="bg-light page-section" id="values">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">行動指針</h2>
+        <h3 class="section-subheading text-muted">values</h3>
+      </div>
+    </div>
+    <ul>
+      <li class="values-list">
+        <a class="values-text">仕事を楽しむ</a>
+      </li>
+      <li class="values-list">
+        <a class="values-text">プロフェッショナルでクールに</a>
+      </li>
+      <li class="values-list">
+        <a class="values-text">成功するまでやる</a>
+      </li>
+      <li class="values-list">
+        <a class="values-text">DRY: 同じことを繰り返さない</a>
+      </li>
+      <li class="values-list">
+        <a class="values-text">チームを思いやる</a>
+      </li>
+      <li class="values-list">
+        <a class="values-text">UI/UXを重んじる</a>
+      </li>
+      <li class="values-list">
+        <a class="values-text">一歩先を考える</a>
+      </li>
+      <li class="values-list">
+        <a class="values-text">人の逆をする</a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+</div>
