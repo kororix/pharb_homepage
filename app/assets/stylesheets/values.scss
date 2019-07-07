@@ -38,42 +38,60 @@
   padding-bottom: 50px;
 }
 
-#values ul {
-  padding: 0;
-  position: relative;
-  font-size: 1.5rem;
+#values .values-text{
+  text-align:　center;
+  color: #000000;
+  font-size: 4rem;
+  font-family: 'Hiragino Kaku Gothic Std', sans-serif;
 }
 
-@media (min-width: 1200px) {
-  #values ul li{
-    display: inline-block;
-    width: 40%;
-    margin-right: 1.5em;
-    margin-left: 1.5em;
-    color: black;
-    border-left: solid 10px lightgreen;
-    background: linear-gradient(90deg, #f5f5f5, #c0c0c0);
-    margin-bottom: 5px;/*下のバーとの余白*/
-    line-height: 1.5;
-    border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
-    padding: 0.5em;
-    list-style-type: none!important;
-    font-family: 'HiraKakuProN-W6', sans-serif;
+@media (max-width: 770px) {
+  #values .values-text{
+    font-size: 3rem;
   }
 }
 
-@media (max-width: 1199px) {
-  #values ul li{
-    width: 100%;
-    margin-right: 1.5em;
-    color: black;
-    border-left: solid 10px lightgreen;
-    background: linear-gradient(90deg, #f5f5f5, #c0c0c0);
-    margin-bottom: 5px;/*下のバーとの余白*/
-    line-height: 1.5;
-    border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
-    padding: 0.5em;
-    list-style-type: none!important;
-    font-family: 'HiraKakuProN-W6', sans-serif;
+@media (max-width: 500px) {
+  #values .values-text{
+    font-size: 2.5rem;
   }
 }
+// #values ul {
+//   padding: 0;
+//   position: relative;
+//   font-size: 1.5rem;
+// }
+
+// @media (min-width: 1200px) {
+//   #values ul li{
+//     display: inline-block;
+//     width: 40%;
+//     margin-right: 1.5em;
+//     margin-left: 1.5em;
+//     color: black;
+//     border-left: solid 10px lightgreen;
+//     background: linear-gradient(90deg, #f5f5f5, #c0c0c0);
+//     margin-bottom: 5px;/*下のバーとの余白*/
+//     line-height: 1.5;
+//     border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
+//     padding: 0.5em;
+//     list-style-type: none!important;
+//     font-family: 'HiraKakuProN-W6', sans-serif;
+//   }
+// }
+
+// @media (max-width: 1199px) {
+//   #values ul li{
+//     width: 100%;
+//     margin-right: 1.5em;
+//     color: black;
+//     border-left: solid 10px lightgreen;
+//     background: linear-gradient(90deg, #f5f5f5, #c0c0c0);
+//     margin-bottom: 5px;/*下のバーとの余白*/
+//     line-height: 1.5;
+//     border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
+//     padding: 0.5em;
+//     list-style-type: none!important;
+//     font-family: 'HiraKakuProN-W6', sans-serif;
+//   }
+// }
